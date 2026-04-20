@@ -94,8 +94,8 @@ Create a new ADR in `docs/development/adr/NNNN-title-of-decision.md`:
 
 **Files affected:**
 
-- `custom_components/ha_integration_domain/[file1.py]`
-- `custom_components/ha_integration_domain/[file2.py]`
+- `custom_components/my_smart_blinds_ble_proxy/[file1.py]`
+- `custom_components/my_smart_blinds_ble_proxy/[file2.py]`
 
 **Code pattern to follow:**
 
@@ -222,8 +222,8 @@ Create a new ADR in `docs/development/adr/NNNN-title-of-decision.md`:
 
 ## Integration Context
 
-- **Domain:** `ha_integration_domain`
-- **Class prefix:** `IntegrationBlueprint`
+- **Domain:** `my_smart_blinds_ble_proxy`
+- **Class prefix:** `MySmartBlindsBLEProxy`
 - **Architecture docs:** `docs/development/ARCHITECTURE.md`
 - **Decisions log:** `docs/development/DECISIONS.md`
 

@@ -18,7 +18,7 @@ jobs:
   release-please:
     name: Release Please
     # Skip when running inside the template repository itself
-    if: github.repository != 'jpawlowski/hacs.integration_blueprint'
+    if: github.repository != 'bshep/hass-my-smart-blinds-ble-proxy'
     runs-on: ubuntu-latest
     steps:
       - name: Run release-please
